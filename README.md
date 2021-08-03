@@ -8,5 +8,5 @@ Jely - Textures
 # Collaborators
 
 # Contact Info
-Cro/Discord - Cro#2864
-Jely/Discord - Jely#4372
+Join here to get in contact with the Devs:
+https://discord.gg/9kFX6sZVmh

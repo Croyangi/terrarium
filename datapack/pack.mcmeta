@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 7,
+    "description": [
+      {
+        "text": "Terrarium",
+        "color": "#008725"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 0.1.0",
+        "color": "#008725"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:knowledge_book"
+      },
+      "title": "Terrarium",
+      "description": [
+        {
+          "text": "Adding high quality content to Vanilla Minecraft",
+          "color": "#00AA00",
+          "extra": [
+        {
+          "text": "\nVersion 0.1.0",
+          "color": "#00AA00",
+          "extra": [
+        {
+          "text": "\n\nDeveloped by:",
+          "color": "#AAAAAA",
+          "extra": [
+        {
+          "text": "\n- Cro",
+          "color": "#AAAAAA",
+          "extra": [
+        {
+          "text": "\n- Jely\n",
+          "color": "#AAAAAA"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "background": "minecraft:textures/block/moss_block.png",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "global:tr",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/leather_helmet",
+    "layer1": "item/leather_helmet_overlay"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 218000
+      },
+      "model": "tr:item/shulker_shelmet/purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218001
+      },
+      "model": "tr:item/shulker_shelmet/red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218002
+      },
+      "model": "tr:item/shulker_shelmet/black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218003
+      },
+      "model": "tr:item/shulker_shelmet/eye"
+    }
+  ]
+}

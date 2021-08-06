@@ -3,14 +3,14 @@
       "icon": {
         "item": "minecraft:knowledge_book"
       },
-      "title": "Terrarium",
+      "title": "Terrarium         ",
       "description": [
         {
           "text": "Adding high quality content to Vanilla Minecraft",
           "color": "#00AA00",
           "extra": [
         {
-          "text": "\nVersion 0.1.0",
+          "text": "\n\nVersion 0.1.0",
           "color": "#00AA00",
           "extra": [
         {

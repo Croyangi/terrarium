@@ -1,0 +1,55 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.tr.mad_hatter.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.tr.mad_hatter.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{CustomModelData:218003}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "tr:minecraft/end/equip_shulker_shelmet",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{tr:{id:\"shulker_shelmet\", variant:\"purple\"}}"
+            },
+            {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{tr:{id:\"shulker_shelmet\", variant:\"red\"}}"
+            },
+            {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{tr:{id:\"shulker_shelmet\", variant:\"black\"}}"
+            },
+            {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{tr:{id:\"shulker_shelmet\", variant:\"optic\"}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

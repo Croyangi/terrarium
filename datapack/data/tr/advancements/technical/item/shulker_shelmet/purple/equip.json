@@ -1,0 +1,23 @@
+{
+    "parent": "tr:technical/root",
+    "criteria": {
+      "equip_shulker_shelmet": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:leather_helmet"
+                ],
+                "nbt": "{tr:{id:\"shulker_shelmet\", variant:\"purple\"}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tr:item/shulker_shelmet/purple/equip"
+    }
+  }

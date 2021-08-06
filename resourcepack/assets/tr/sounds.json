@@ -1,0 +1,8 @@
+{
+    "item.shulker_shelmet.equip": {
+        "sounds": [
+          "block/shulker_box/open"
+        ],
+        "subtitle": "subtitle.tr.item.shulker_shelmet.equip"
+    }
+}

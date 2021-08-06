@@ -1,0 +1,21 @@
+{
+    "parent": "tr:technical/root",
+    "criteria": {
+      "unequip_shulker_shelmet": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{tr:{id:\"shulker_shelmet\", variant:\"purple\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "tr:item/shulker_shelmet/purple/unequip"
+    }
+  }

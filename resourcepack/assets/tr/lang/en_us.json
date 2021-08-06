@@ -1,0 +1,16 @@
+{
+  "item.minecraft.knowledge_book": "Recipe Output",
+
+  "pack.tr": "Terrarium",
+  "pack.tr.version": "Version 0.1.0",
+
+  "item.tr.shulker_shelmet": "Shulker Shelmet",
+
+  "advancement.tr.headspace.title": "Headspace",
+  "advancement.tr.headspace.description": "Equip the Shulker Shelmet",
+
+  "advancement.tr.mad_hatter.title": "Mad Hatter",
+  "advancement.tr.mad_hatter.description": "Collect all variants of the Shulker Shelmet",
+
+  "subtitle.tr.item.shulker_shelmet.equip": "Shulker Shelmet clunks"
+}

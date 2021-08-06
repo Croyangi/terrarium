@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1_1": "tr:item/shulker_shelmet/red"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 5, 12],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 6.5], "texture": "#1_1"},
+				"east": {"uv": [0, 4, 4, 6.5], "texture": "#1_1"},
+				"south": {"uv": [12, 4, 16, 6.5], "texture": "#1_1"},
+				"west": {"uv": [8, 4, 12, 6.5], "texture": "#1_1"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#1_1"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#1_1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 45, 0],
+			"translation": [0, 4.75, 2.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 45, 0],
+			"translation": [0, 4.75, 2.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 7.25, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 7.25, 0]
+		},
+		"ground": {
+			"translation": [0, 9.75, 0]
+		},
+		"gui": {
+			"rotation": [27, 150, 0],
+			"translation": [0, 3.75, 0]
+		},
+		"head": {
+			"translation": [0, 12.75, 0],
+			"scale": [1.9, 1.9, 1.9]
+		},
+		"fixed": {
+			"translation": [0, 8, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "shulker_helm",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

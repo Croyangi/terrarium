@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.tr.very_uneasy_alliance.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.tr.very_uneasy_alliance.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:leather_horse_armor",
+            "nbt": "{CustomModelData:218000}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "tr:minecraft/end/kill_voidllager",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wandering_trader",
+            "nbt": "{Tags:[\"tr.voidllager\"]}",
+              "location": {
+                "dimension": "minecraft:overworld"
+            }
+          }
+        }
+      }
+    }
+  }
+  

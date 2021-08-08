@@ -1,3 +1,33 @@
 v0.1.0 : Darkest Depths
 
-- you shouldnt be here
+
+Additions:
+- Added Voidllagers with 4 variants, naturally spawning illagers in the End
+- Added Shulker Shelmets with 4 variants, dropped by Voidllagers and gives +2 Knockback Resistance when worn
+
+
+Changes:
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v0.2.0 : ???

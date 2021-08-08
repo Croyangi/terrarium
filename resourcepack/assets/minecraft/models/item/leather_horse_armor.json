@@ -1,32 +1,32 @@
 {
-  "parent": "item/handheld_rod",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "item/carrot_on_a_stick"
+    "layer0": "minecraft:item/leather_horse_armor"
   },
   "overrides": [
     {
       "predicate": {
         "custom_model_data": 218000
       },
-      "model": "tr:item/shulker_shelmet/purple"
+      "model": "tr:entity/voidllager/head"
     },
     {
       "predicate": {
         "custom_model_data": 218001
       },
-      "model": "tr:item/shulker_shelmet/red"
+      "model": "tr:entity/voidllager/idle"
     },
     {
       "predicate": {
         "custom_model_data": 218002
       },
-      "model": "tr:item/shulker_shelmet/black"
+      "model": "tr:entity/voidllager/walking"
     },
     {
       "predicate": {
         "custom_model_data": 218003
       },
-      "model": "tr:item/shulker_shelmet/optic"
+      "model": "tr:entity/voidllager/casting"
     }
   ]
 }

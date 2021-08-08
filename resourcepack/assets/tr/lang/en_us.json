@@ -6,11 +6,16 @@
 
   "item.tr.shulker_shelmet": "Shulker Shelmet",
 
+  "entity.tr.voidllager": "Voidllager",
+
   "advancement.tr.headspace.title": "Headspace",
   "advancement.tr.headspace.description": "Equip the Shulker Shelmet",
-
   "advancement.tr.mad_hatter.title": "Mad Hatter",
   "advancement.tr.mad_hatter.description": "Collect all variants of the Shulker Shelmet",
+  "advancement.tr.alone_in_the_abyss.title": "Alone in the Abyss",
+  "advancement.tr.alone_in_the_abyss.description": "Kill the Voidllager and remain alone in the abyss",
+  "advancement.tr.very_uneasy_alliance.title": "Very Uneasy Alliance",
+  "advancement.tr.very_uneasy_alliance.description": "Rescue a Voidllager from the End, bring it safely home to the Overworld... and then kill it",
 
   "subtitle.tr.item.shulker_shelmet.equip": "Shulker Shelmet clunks"
 }

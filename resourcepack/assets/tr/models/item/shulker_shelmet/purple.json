@@ -41,12 +41,20 @@
 			"translation": [0, 3.75, 0]
 		},
 		"head": {
-			"translation": [0, 12.75, 0],
-			"scale": [1.9, 1.9, 1.9]
+			"translation": [0, 13.5, 0],
+			"scale": [2, 2, 2]
 		},
 		"fixed": {
 			"translation": [0, 8, 0],
 			"scale": [2, 2, 2]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "shulker_helm",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
 }

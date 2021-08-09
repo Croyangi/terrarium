@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [72, 72],
 	"textures": {
-		"0": "tr:entity/voidllager/idle",
-		"particle": "tr:entity/voidllager/idle"
+		"0": "tr:entity/voidllager/purple/head",
+		"particle": "tr:entity/voidllager/purple/head"
 	},
 	"elements": [
 		{

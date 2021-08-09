@@ -14,7 +14,10 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{tr:{id:\"death_detect\"}}"
+                "tag": "{tr:{id:\"death_detect\", entity:\"voidllager\"}}"
+                }],
+                "conditions": [{
+                  "condition": "minecraft:killed_by_player"
               }
             ]
           }

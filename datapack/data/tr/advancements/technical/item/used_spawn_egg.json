@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wandering_trader_spawn_egg"
+          ],
+          "nbt": "{tr:{id:\"spawn_egg\", entity:\"voidllager\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tr:item/spawn_egg/schedule"
+  }
+}

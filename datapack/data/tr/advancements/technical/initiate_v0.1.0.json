@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "tr:technical/initiate"
+    },
+    "parent": "tr:technical/root"
+  }

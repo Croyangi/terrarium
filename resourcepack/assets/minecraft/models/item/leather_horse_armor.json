@@ -8,7 +8,7 @@
       "predicate": {
         "custom_model_data": 218000
       },
-      "model": "tr:entity/voidllager/head"
+      "model": "tr:entity/voidllager/purple/head"
     },
     {
       "predicate": {
@@ -27,6 +27,48 @@
         "custom_model_data": 218003
       },
       "model": "tr:entity/voidllager/casting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218004
+      },
+      "model": "tr:entity/voidllager/purple/head_casting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218005
+      },
+      "model": "tr:entity/voidllager/red/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218006
+      },
+      "model": "tr:entity/voidllager/red/head_casting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218007
+      },
+      "model": "tr:entity/voidllager/black/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218008
+      },
+      "model": "tr:entity/voidllager/black/head_casting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218009
+      },
+      "model": "tr:entity/voidllager/optic/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218010
+      },
+      "model": "tr:entity/voidllager/optic/head_casting"
     }
   ]
 }

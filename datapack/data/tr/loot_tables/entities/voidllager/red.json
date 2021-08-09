@@ -5,7 +5,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tr:technical/death_detect"
+          "name": "tr:technical/entities/voidllager"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tr:entities/voidllager/death_detect"
         }
       ]
     },
@@ -50,7 +59,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tr:items/shulker_shelmet/purple",
+          "name": "tr:items/shulker_shelmet/red",
           "functions": [
             {
               "function": "minecraft:set_count",

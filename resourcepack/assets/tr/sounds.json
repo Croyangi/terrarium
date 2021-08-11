@@ -4,5 +4,64 @@
           "block/shulker_box/open"
         ],
         "subtitle": "subtitle.tr.item.shulker_shelmet.equip"
+
+        },
+          "mob.voidllager.death": {
+        "sounds": [
+          "tr:mob/voidllager/voidllager_death1",
+          "tr:mob/voidllager/voidllager_death2"
+        ],
+        "subtitle": "subtitle.tr.entity.voidllager.death"
+
+        },
+          "mob.voidllager.idle": {
+        "sounds": [
+          "tr:mob/voidllager/voidllager_idle1",
+          "tr:mob/voidllager/voidllager_idle2",
+          "tr:mob/voidllager/voidllager_idle3"
+        ],
+        "subtitle": "subtitle.tr.entity.voidllager.idle"
+
+        },
+          "mob.voidllager.hurt": {
+        "sounds": [
+          "tr:mob/voidllager/voidllager_hurt1",
+          "tr:mob/voidllager/voidllager_hurt2"
+        ],
+        "subtitle": "subtitle.tr.entity.voidllager.hurt"
+
+        },
+          "mob.voidllager.teleport": {
+        "sounds": [
+          "tr:mob/voidllager/voidllager_teleport1",
+          "tr:mob/voidllager/voidllager_teleport2"
+        ],
+        "subtitle": "subtitle.tr.entity.voidllager.teleport"
+
+        },
+          "mob.voidllager.cast": {
+        "sounds": [
+          "tr:mob/voidllager/voidllager_cast"
+        ],
+        "subtitle": "subtitle.tr.entity.voidllager.cast"
+
+        },
+          "mob.voidllager.barter": {
+        "sounds": [
+          "tr:mob/voidllager/voidllager_barter"
+        ],
+        "subtitle": "subtitle.tr.entity.voidllager.barter"
+
+        },
+        "mob.voidllager.drop_elytra": {
+          "sounds": [
+            "item/armor/equip_leather1",
+            "item/armor/equip_leather2",
+            "item/armor/equip_leather3",
+            "item/armor/equip_leather4",
+            "item/armor/equip_leather5",
+            "item/armor/equip_leather6"
+          ],
+        "subtitle": "subtitle.tr.entity.voidllager.drop_elytra"
     }
 }

@@ -1,6 +1,7 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "tr:item/spawn_egg/voidllager"
-    }
+  "parent": "tr:item/template_spawn_egg",
+  "textures": {
+    "0": "tr:item/spawn_egg/voidllager",
+    "particle": "tr:item/spawn_egg/voidllager"
+  }
 }

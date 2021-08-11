@@ -1,0 +1,43 @@
+{
+    "parent": "tr:technical/root",
+    "criteria": {
+      "shulker_shelmet_picked_up_by_entity": {
+        "trigger": "minecraft:thrown_item_picked_up_by_entity",
+        "conditions": {
+          "entity": {
+            "type": "#tr:entity_hat_equip"
+          },
+          "item": {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{tr:{id:\"shulker_shelmet\"}}"
+          }
+        }
+      },
+      "shulker_shelmet_used_on_armorstand": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{tr:{id:\"shulker_shelmet\"}}"
+          },
+          "entity": {
+            "type": "#tr:entity_hat_equip"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "shulker_shelmet_used_on_armorstand",
+        "shulker_shelmet_picked_up_by_entity"
+      ]
+    ],
+    "rewards": {
+      "function": "tr:item/shulker_shelmet/entity_equip"
+    }
+  }
+  

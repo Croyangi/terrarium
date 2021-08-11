@@ -7,7 +7,7 @@
           "items": [
             "minecraft:wandering_trader_spawn_egg"
           ],
-          "nbt": "{tr:{id:\"spawn_egg\", entity:\"voidllager\"}}"
+          "nbt": "{tr:{id:\"spawn_egg\"}}"
         }
       }
     }

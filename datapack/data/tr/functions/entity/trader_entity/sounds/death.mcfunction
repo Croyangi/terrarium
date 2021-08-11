@@ -2,4 +2,4 @@
 # Description: Filters death sounds for trader entities
 ############################################################
 
-execute if entity @s[nbt={Item:{tag:{tr:{entity:"voidllager"}}}}] run playsound minecraft:entity.vindicator.death master @a[distance=..16] ~ ~ ~ 1 1.2
+execute if entity @s[nbt={Item:{tag:{tr:{entity:"voidllager"}}}}] run playsound tr:mob.voidllager.death master @a[distance=..16]

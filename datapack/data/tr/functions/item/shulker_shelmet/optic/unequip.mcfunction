@@ -43,3 +43,5 @@ loot replace entity @s[nbt={Inventory:[{Slot:32b,id:"minecraft:carrot_on_a_stick
 loot replace entity @s[nbt={Inventory:[{Slot:33b,id:"minecraft:carrot_on_a_stick",tag:{tr:{id:"shulker_shelmet", variant:"optic"}}}]}] container.33 loot tr:technical/shulker_shelmet/optic
 loot replace entity @s[nbt={Inventory:[{Slot:34b,id:"minecraft:carrot_on_a_stick",tag:{tr:{id:"shulker_shelmet", variant:"optic"}}}]}] container.34 loot tr:technical/shulker_shelmet/optic
 loot replace entity @s[nbt={Inventory:[{Slot:35b,id:"minecraft:carrot_on_a_stick",tag:{tr:{id:"shulker_shelmet", variant:"optic"}}}]}] container.35 loot tr:technical/shulker_shelmet/optic
+
+tag @s remove tr.voidllager.friendly

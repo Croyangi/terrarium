@@ -2,8 +2,8 @@
 # Description: Voidllager teleports player
 ############################################################
 
-spreadplayers ~ ~ 1 7 false @s
-spreadplayers ~ ~ 1 2 false @e[type=endermite,distance=..20]
+spreadplayers ~ ~ 5 7 false @s
+spreadplayers ~ ~ 0 1 false @e[type=endermite,distance=..30]
 particle minecraft:reverse_portal ~ ~ ~ 0 0 0 1 20 normal
 playsound tr:mob.voidllager.teleport master @a[distance=..16]
 effect give @s nausea 6 0 false

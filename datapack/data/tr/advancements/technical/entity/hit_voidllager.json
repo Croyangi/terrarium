@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"tr.voidllager\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tr:entity/voidllager/hit_voidllager"
+    }
+  }
+  

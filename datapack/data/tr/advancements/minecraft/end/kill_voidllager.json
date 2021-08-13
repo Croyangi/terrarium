@@ -10,7 +10,7 @@
         },
         "icon": {
             "item": "minecraft:leather_horse_armor",
-            "nbt": "{CustomModelData:218000}"
+            "nbt": "{CustomModelData:218000,display:{color:16777215}}"
         },
         "frame": "task",
         "show_toast": true,

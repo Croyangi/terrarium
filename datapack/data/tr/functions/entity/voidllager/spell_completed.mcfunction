@@ -1,9 +1,10 @@
 ############################################################
-# Description: Voidllager cast complete
+# Description: Finishes the spell
 ############################################################
 
-execute as @p[gamemode=!creative,gamemode=!spectator,limit=1] at @s run function tr:entity/voidllager/casting/spells/spell_rng
-
+data remove storage tr:storage root.temp
+execute if data entity @s ActiveEffects[{Id:5b}] run data modify storage tr:storage root.temp.strength set value 1b
+function tr:entity/voidllager/spells/spell_rng
 data modify entity @s WanderTarget set value {X:0,Y:0,Z:0}
 execute store result entity @s WanderTarget.X int 1 run data get entity @p[gamemode=!creative,gamemode=!spectator,limit=1,distance=..16] Pos[0]
 execute store result entity @s WanderTarget.Y int 1 run data get entity @p[gamemode=!creative,gamemode=!spectator,limit=1,distance=..16] Pos[1]

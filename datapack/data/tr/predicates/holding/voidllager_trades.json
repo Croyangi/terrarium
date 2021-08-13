@@ -1,0 +1,32 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:amethyst_shard"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:turtle_egg"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+  

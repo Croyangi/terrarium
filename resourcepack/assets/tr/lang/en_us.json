@@ -17,6 +17,8 @@
   "advancement.tr.alone_in_the_abyss.description": "Kill the Voidllager and remain alone in the abyss",
   "advancement.tr.very_uneasy_alliance.title": "Very Uneasy Alliance",
   "advancement.tr.very_uneasy_alliance.description": "Rescue a Voidllager from the End, bring it safely home to the Overworld... and then kill it",
+  "advancement.tr.end_exchange.title": "End Exchange",
+  "advancement.tr.end_exchange.description": "Barter with a Voidllager",
 
   "subtitle.tr.item.shulker_shelmet.equip": "Shulker Shelmet clunks",
 
@@ -25,8 +27,10 @@
   "subtitle.tr.entity.voidllager.hurt": "Voidllager hurts",
   "subtitle.tr.entity.voidllager.teleport": "Voidllager teleports",
   "subtitle.tr.entity.voidllager.cast": "Voidllager casts",
-  "subtitle.tr.entity.voidllager.barter": "Voidllager agrees",
+  "subtitle.tr.entity.voidllager.agrees": "Voidllager agrees",
+  "subtitle.tr.entity.voidllager.disagrees": "Voidllager disagrees",
   "subtitle.tr.entity.voidllager.drop_elytra": "Voidllager takes off Elytra",
+  "subtitle.tr.entity.voidllager.drop_item": "Voidllager drops item",
 
   "death.tr.voidllager_teleport": "died of overteleportation"
 }

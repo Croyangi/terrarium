@@ -46,11 +46,18 @@
         "subtitle": "subtitle.tr.entity.voidllager.cast"
 
         },
-          "mob.voidllager.barter": {
+          "mob.voidllager.agrees": {
         "sounds": [
-          "tr:mob/voidllager/voidllager_barter"
+          "tr:mob/voidllager/voidllager_agrees"
         ],
-        "subtitle": "subtitle.tr.entity.voidllager.barter"
+        "subtitle": "subtitle.tr.entity.voidllager.agrees"
+
+        },
+          "mob.voidllager.disagrees": {
+        "sounds": [
+          "tr:mob/voidllager/voidllager_disagrees"
+        ],
+        "subtitle": "subtitle.tr.entity.voidllager.disagrees"
 
         },
         "mob.voidllager.drop_elytra": {
@@ -63,5 +70,12 @@
             "item/armor/equip_leather6"
           ],
         "subtitle": "subtitle.tr.entity.voidllager.drop_elytra"
+
+      },
+      "mob.voidllager.drop_item": {
+        "sounds": [
+          "random/pop"
+        ],
+      "subtitle": "subtitle.tr.entity.voidllager.drop_item"
     }
 }

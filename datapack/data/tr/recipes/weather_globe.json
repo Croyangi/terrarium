@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " #_",
-        "# #",
+        "#B#",
         " # "
     ],
     "key": {
@@ -11,6 +11,9 @@
         },
         "_": {
             "item": "minecraft:oak_slab"
+        },
+        "B": {
+            "item": "minecraft:bucket"
         }
     },
     "result": {

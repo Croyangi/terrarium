@@ -12,3 +12,8 @@ tag @s remove tr.voidllager.bartering
 tag @s remove tr.voidllager.failed_barter
 
 attribute @s minecraft:generic.movement_speed modifier remove 0-2-0-3-3
+
+execute if entity @s[tag=tr.voidllager.purple] run data modify entity @s ArmorItems[3].tag.CustomModelData set value 218000
+execute if entity @s[tag=tr.voidllager.red] run data modify entity @s ArmorItems[3].tag.CustomModelData set value 218005
+execute if entity @s[tag=tr.voidllager.black] run data modify entity @s ArmorItems[3].tag.CustomModelData set value 218007
+execute if entity @s[tag=tr.voidllager.optic] run data modify entity @s ArmorItems[3].tag.CustomModelData set value 218009

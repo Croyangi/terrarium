@@ -69,6 +69,30 @@
         "custom_model_data": 218010
       },
       "model": "tr:entity/voidllager/optic/head_casting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218011
+      },
+      "model": "tr:entity/voidllager/purple/head_barter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218012
+      },
+      "model": "tr:entity/voidllager/red/head_barter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218013
+      },
+      "model": "tr:entity/voidllager/black/head_barter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218014
+      },
+      "model": "tr:entity/voidllager/optic/head_barter"
     }
   ]
 }

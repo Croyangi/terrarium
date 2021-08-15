@@ -15,7 +15,7 @@ Dropped by Voidllagers, they give +2 Armor and +2 Knockback Resistance.
 
 - Added Weather Globes, a way for you to forecast the weather.
 Right-click to suck in the current weather and store it away for later use.
-Right-click a filled globe to then release the stored weather inside.
+Right-click a filled globe to release the stored weather and change the weather for 5 minutes
 
 
 Changes:

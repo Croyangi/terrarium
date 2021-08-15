@@ -2,10 +2,20 @@ v0.1: Darkest Depths
 
 
 Additions:
-- Added Voidllagers
-- Added Shulker Shelmets
+- Added Voidllagers, exiled by the other illagers, they've been banished to the End. 
+They spawn on End Islands, and come in a variety of 4 colors.
+Though keep a distance, their attacks are powerful with mystical properties. 
+When killed, there's a chance for them to drop their respective Shulker Shelmet.
+When wearing the helmet, they become neutral and now can be bartered with amethysts.
+
 - Added Voidllager Spawn Eggs
-- Added Weather Globes
+
+- Added Shulker Shelmets, a fashionable helmet with the protective properties of a Shulker.
+Dropped by Voidllagers, they give +2 Armor and +2 Knockback Resistance.
+
+- Added Weather Globes, a way for you to forecast the weather.
+Right-click to suck in the current weather and store it away for later use.
+Right-click a filled globe to then release the stored weather inside.
 
 
 Changes:

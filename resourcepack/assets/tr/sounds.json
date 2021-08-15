@@ -77,5 +77,23 @@
           "random/pop"
         ],
       "subtitle": "subtitle.tr.entity.voidllager.drop_item"
+
+      },
+      "item.weather_globe.open": {
+        "sounds": [
+          "tr:item/weather_globe/open1",
+          "tr:item/weather_globe/open2",
+          "tr:item/weather_globe/open3"
+        ],
+      "subtitle": "subtitle.tr.item.weather_globe.open"
+
+      },
+      "item.weather_globe.shatter": {
+        "sounds": [
+          "tr:item/weather_globe/shatter1",
+          "tr:item/weather_globe/shatter2",
+          "tr:item/weather_globe/shatter3"
+        ],
+      "subtitle": "subtitle.tr.item.weather_globe.shatter"
     }
 }

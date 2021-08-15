@@ -1,11 +1,11 @@
-v0.1.0 : Darkest Depths
+v0.1: Darkest Depths
 
 
 Additions:
-- Added Voidllagers with 4 variants, naturally spawning hostile illagers in the End
-- Voidllagers can be bartered with Amethyst Shards or Turtle Eggs
-- Added Shulker Shelmets with 4 variants, dropped by Voidllagers and gives +2 Knockback Resistance when worn
+- Added Voidllagers
+- Added Shulker Shelmets
 - Added Voidllager Spawn Eggs
+- Added Weather Globes
 
 
 Changes:
@@ -32,4 +32,4 @@ Changes:
 
 
 
-v0.2.0 : ???
+v0.2: ???

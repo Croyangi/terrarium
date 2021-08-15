@@ -2,12 +2,20 @@
   "item.minecraft.knowledge_book": "Recipe Output",
 
   "pack.tr": "Terrarium",
-  "pack.tr.version": "Version 0.1.0",
+  "pack.tr.version": "Version 0.1",
 
   "item.tr.shulker_shelmet": "Shulker Shelmet",
   "item.tr.voidllager_spawn_egg": "Voidllager Spawn Egg",
+  "item.tr.weather_globe": "Weather Globe",
+  "item.tr.weather_globe.lore": "Weather",
+  "item.tr.weather_globe.weather.clear": "[Clear]",
+  "item.tr.weather_globe.weather.rain": "[Rain]",
+  "item.tr.weather_globe.weather.thunder": "[Thunder]",
 
   "entity.tr.voidllager": "Voidllager",
+
+  "advancement.tr.rain_rain_go_away.title": "Rain Rain Go Away",
+  "advancement.tr.rain_rain_go_away.description": "Clear up the sky with a Weather Globe",
 
   "advancement.tr.headspace.title": "Headspace",
   "advancement.tr.headspace.description": "Equip the Shulker Shelmet",
@@ -15,8 +23,6 @@
   "advancement.tr.mad_hatter.description": "Collect all variants of the Shulker Shelmet",
   "advancement.tr.alone_in_the_abyss.title": "Alone in the Abyss",
   "advancement.tr.alone_in_the_abyss.description": "Kill the Voidllager and remain alone in the abyss",
-  "advancement.tr.very_uneasy_alliance.title": "Very Uneasy Alliance",
-  "advancement.tr.very_uneasy_alliance.description": "Rescue a Voidllager from the End, bring it safely home to the Overworld... and then kill it",
   "advancement.tr.end_exchange.title": "End Exchange",
   "advancement.tr.end_exchange.description": "Barter with a Voidllager",
 
@@ -31,6 +37,8 @@
   "subtitle.tr.entity.voidllager.disagrees": "Voidllager disagrees",
   "subtitle.tr.entity.voidllager.drop_elytra": "Voidllager takes off Elytra",
   "subtitle.tr.entity.voidllager.drop_item": "Voidllager drops item",
+  "subtitle.tr.item.weather_globe.open": "Opens Weather Globe",
+  "subtitle.tr.item.weather_globe.shatter": "Weather Globe shatters",
 
   "death.tr.voidllager_teleport": "died of overteleportation"
 }

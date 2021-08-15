@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "weather_globe_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tr:weather_globe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "tr:recipes/weather_globe"
+    }
+}

@@ -27,6 +27,30 @@
         "custom_model_data": 218003
       },
       "model": "tr:item/shulker_shelmet/optic"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218004
+      },
+      "model": "tr:item/weather_globe/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218005
+      },
+      "model": "tr:item/weather_globe/clear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218006
+      },
+      "model": "tr:item/weather_globe/rain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218007
+      },
+      "model": "tr:item/weather_globe/thunder"
     }
   ]
 }

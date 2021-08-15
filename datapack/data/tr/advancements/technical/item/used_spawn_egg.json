@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "tr:item/spawn_egg/schedule"
+    "function": "tr:item/spawn_egg/dropcraft"
   }
 }

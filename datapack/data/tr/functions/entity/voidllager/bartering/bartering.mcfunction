@@ -9,8 +9,8 @@ execute as @s[scores={tr.dummy2=0}] run playsound tr:mob.voidllager.barter maste
 scoreboard players add @s[scores={tr.dummy2=0..}] tr.dummy2 1
 
 attribute @s minecraft:generic.movement_speed modifier add 0-2-0-3-3 "slowness" -100 add
-data modify entity @s HandItems[0].tag.CustomModelData set value 218001
 
+data modify entity @s HandItems[0].tag.CustomModelData set value 218001
 execute if entity @s[tag=tr.voidllager.purple] run data modify entity @s ArmorItems[3].tag.CustomModelData set value 218011
 execute if entity @s[tag=tr.voidllager.red] run data modify entity @s ArmorItems[3].tag.CustomModelData set value 218012
 execute if entity @s[tag=tr.voidllager.black] run data modify entity @s ArmorItems[3].tag.CustomModelData set value 218013

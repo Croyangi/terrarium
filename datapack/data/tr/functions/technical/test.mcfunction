@@ -1,5 +1,6 @@
 ############################################################
-# Description: Runs off of entities
+# Description: Test function
 ############################################################
 
-execute as @s[tag=tr.trader_entity] run function tr:entity/trader_entity/tick
+say Test Successful
+advancement revoke @s only tr:technical/test

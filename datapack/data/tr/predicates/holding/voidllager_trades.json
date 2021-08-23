@@ -73,7 +73,7 @@
           "equipment": {
             "mainhand": {
               "items": [
-                "minecraft:turtle_egg"
+                "minecraft:poisonous_potato"
               ]
             }
           }
@@ -81,4 +81,3 @@
       }
     ]
   }
-  

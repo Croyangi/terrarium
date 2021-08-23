@@ -11,6 +11,6 @@ data modify storage tr:storage root.temp.item set from entity @s Inventory[{Slot
 item replace entity @s armor.head with minecraft:carrot_on_a_stick
 item modify entity @s armor.head tr:copy_nbt
 
-execute unless entity @e[type=wandering_trader,tag=tr.voidllager,distance=..20] run tag @s add tr.voidllager.friendly
+execute unless entity @e[type=wandering_trader,tag=tr.voidllager,distance=..16] run tag @s add tr.voidllager.friendly
 
 advancement grant @s only tr:minecraft/end/equip_shulker_shelmet

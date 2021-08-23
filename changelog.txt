@@ -2,27 +2,56 @@ v0.1: Darkest Depths
 
 
 Additions:
-- Added Voidllagers, exiled by the other illagers, they've been banished to the End. 
-They spawn on End Islands, and come in a variety of 4 colors.
-Though keep a distance, their attacks are powerful with mystical properties. 
-When killed, there's a chance for them to drop their respective Shulker Shelmet.
-When wearing the helmet, they become neutral and now can be bartered with amethysts.
 
-- Added Voidllager Spawn Eggs
+- Added Voidllagers, exiled by the other illagers for their unspeakable crimes, they've been banished to the End.
+Spawning on End Islands, they spawn with a variety of 4 Shulker Shelmet colors.
+Usually hostile, the Voidllagers are smarter than your usual illager, changing its attacks based on its surrondings:
+    - Teleports the player 5-7 blocks away, and dazes them with 7 seconds of Nausea and Slowness II.
+    - If the player is too close, the Voidllager will teleport away 15-20 blocks away, leaving behind up to 4 Endermites.
+    - If the player is flying with an Elytra, the Voidllager will yank it off their backs, hopefully not dropping into the endless void.
+    - If the player uses projectiles from long distance, the Voidllager will attempt to escape by teleporting away.
+Disguise yourself as a Voidllager by equipping a Shulker Shelmet when out of field of view.
+Once disguised, you can now barter with them with amethysts. When given enough amethysts and satisfied, they will drop a variety of different loot.
 
 - Added Shulker Shelmets, a fashionable helmet with the protective properties of a Shulker.
-Dropped by Voidllagers, they give +2 Armor and +2 Knockback Resistance.
+Dropped by Voidllagers, they give +2 Armor and +2 Knockback Resistance. Great for late game armor.
+
+- Added Voidllager Spawn Eggs, with a black and purple hue.
+Now you too can grind for Optic Shulker Shelmets!
 
 - Added Weather Globes, a way for you to forecast the weather.
 Right-click to suck in the current weather and store it away for later use.
 Right-click a filled globe to release the stored weather and change the weather for 5 minutes
 
+- Added advancement, "Alone in the Abyss".
+Earn it by killing a Voidllager.
+
+- Added advancement, "Headspace".
+Earn it by equipping a Shulker Shelmet.
+
+- Added advancement, "Mad Hatter".
+Earn it by collecting all 4 variants of the Shulker Shelmet.
+
+- Added advancement, "End Exchange".
+Earn it by successfully bartering with a Voidllager.
+
+- Added advancement, "Rain Rain Go Away".
+Earn it by using a Clear Weather Globe while it's raining or thundering.
+
 
 Changes:
 
--
+- ???
 
 
+Removals:
+
+- ???
+
+
+Bug Fixes:
+
+- ???
 
 
 

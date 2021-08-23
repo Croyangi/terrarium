@@ -12,6 +12,8 @@ effect give @s slowness 6 2 false
 tag @s add tr.damage.voidllager_teleport
 execute store result score tr.temp_0 tr.dummy run difficulty
 scoreboard players set tr.damage tr.dummy 20
+execute if entity @e[tag=tr.tag] run scoreboard players set tr.damage tr.dummy 40
+tag @e remove tr.tag
 scoreboard players operation tr.damage tr.dummy *= tr.temp_0 tr.dummy
 scoreboard players set tr.ignore_armor tr.dummy 1
 function tr:entity/player/damage/calculate

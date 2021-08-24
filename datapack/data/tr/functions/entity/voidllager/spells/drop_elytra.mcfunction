@@ -10,4 +10,4 @@ execute as @e[type=item,limit=1,nbt={Item:{tag:{tr:{temp:1b}}}}] run data modify
 data remove entity @s Inventory[{Slot:102b}]
 item replace entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra"}]}] armor.chest with air
 
-effect give @s slowness 4 4 false
+effect give @s slowness 14 1 false

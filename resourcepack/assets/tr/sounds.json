@@ -48,14 +48,16 @@
         },
           "mob.voidllager.agrees": {
         "sounds": [
-          "tr:mob/voidllager/voidllager_agrees"
+          "tr:mob/voidllager/voidllager_agrees1",
+          "tr:mob/voidllager/voidllager_agrees2"
         ],
         "subtitle": "subtitle.tr.entity.voidllager.agrees"
 
         },
           "mob.voidllager.disagrees": {
         "sounds": [
-          "tr:mob/voidllager/voidllager_disagrees"
+          "tr:mob/voidllager/voidllager_disagrees1",
+          "tr:mob/voidllager/voidllager_disagrees2"
         ],
         "subtitle": "subtitle.tr.entity.voidllager.disagrees"
 

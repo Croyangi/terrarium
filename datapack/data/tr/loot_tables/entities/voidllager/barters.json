@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 15,
           "name": "minecraft:splash_potion",
           "functions": [
             {
@@ -24,7 +24,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 10,
           "name": "minecraft:book",
           "functions": [
             {
@@ -49,7 +49,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
@@ -74,7 +74,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 3,
                 "max": 6
               }
             }
@@ -88,7 +88,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 6,
                 "max": 12
               }
             }
@@ -97,16 +97,21 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:end_stone_bricks",
+          "name": "minecraft:end_stone",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 6,
                 "max": 12
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:end_rod"
         }
       ]
     }

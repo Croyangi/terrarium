@@ -7,8 +7,8 @@ execute if entity @s[scores={tr.dummy2=0..2}] run function tr:entity/voidllager/
 scoreboard players add @s[scores={tr.dummy2=0..}] tr.dummy2 1
 tag @s add tr.trader_entity.still
 attribute @s minecraft:generic.movement_speed modifier add 0-2-0-3-3 "slowness" -100 add
-execute rotated ~ 0 run particle minecraft:reverse_portal ^-0.65 ^.65 ^ 0 0 0 .05 10 normal
-execute rotated ~ 0 run particle minecraft:reverse_portal ^0.65 ^.65 ^ 0 0 0 .05 10 normal
+execute rotated ~ 0 run particle minecraft:reverse_portal ^-0.65 ^.65 ^ 0.1 0.1 0.1 .05 10 normal
+execute rotated ~ 0 run particle minecraft:reverse_portal ^0.65 ^.65 ^ 0.1 0.1 0.1 .05 10 normal
 
 execute if entity @s[tag=tr.has_line_of_sight] run data modify entity @s HandItems[0].tag.CustomModelData set value 218003
 execute if entity @s[tag=tr.has_line_of_sight,tag=tr.voidllager.purple] run data modify entity @s ArmorItems[3].tag.CustomModelData set value 218004

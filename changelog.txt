@@ -6,9 +6,9 @@ Additions:
 - Added Voidllagers, exiled by the other illagers for their unspeakable crimes, they've been banished to the End.
 Spawning on End Islands, they spawn with a variety of 4 Shulker Shelmet colors.
 Usually hostile, the Voidllagers are smarter than your usual illager, changing its attacks based on its surrondings:
-    - Teleports the player 5-7 blocks away, and dazes them with 10 seconds of Nausea and Slowness II.
+    - Teleports the player 5-7 blocks away, and dazes them with 15 seconds of Nausea and Slowness II.
     - If the player is too close, the Voidllager will teleport away 15-20 blocks away, leaving behind up to 4 Endermites.
-    - If the player is flying with an Elytra, the Voidllager will yank it off their backs, hopefully not dropping into the endless void.
+    - If the player is flying with an Elytra, the Voidllager will yank it off their backs, hopefully not dropping into the endless void. As well as applying 15 seconds of Slowness II.
     - If the player uses projectiles from long distance, the Voidllager will attempt to escape by teleporting away.
 Disguise yourself as a Voidllager by equipping a Shulker Shelmet when out of field of view.
 Once disguised, you can now barter with them with amethysts. When given enough amethysts and satisfied, they will drop a variety of different loot.
@@ -37,6 +37,9 @@ Earn it by successfully bartering with a Voidllager.
 
 - Added advancement, "Rain Rain Go Away".
 Earn it by using a Clear Weather Globe while it's raining or thundering.
+
+- Added gamerule, "doCustomMobSpawning".
+Defaults as on, toggles if custom mobs spawn.
 
 
 Changes:

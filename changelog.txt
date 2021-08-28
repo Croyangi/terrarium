@@ -14,7 +14,7 @@ Disguise yourself as a Voidllager by equipping a Shulker Shelmet when out of fie
 Once disguised, you can now barter with them with amethysts. When given enough amethysts and satisfied, they will drop a variety of different loot.
 
 - Added Shulker Shelmets, a fashionable helmet with the protective properties of a Shulker.
-Dropped by Voidllagers, they give +2 Armor and +2 Knockback Resistance. Great for late game armor.
+Dropped by Voidllagers, they give +2 Armor and +1 Knockback Resistance. Great for late game armor.
 
 - Added Voidllager Spawn Eggs, with a black and purple hue.
 Now you too can grind for Optic Shulker Shelmets!

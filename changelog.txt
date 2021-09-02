@@ -9,7 +9,7 @@ Usually hostile, the Voidllagers are smarter than your usual illager, changing i
     - Teleports the player 5-7 blocks away, and dazes them with 15 seconds of Nausea and Slowness II.
     - If the player is too close, the Voidllager will teleport away 15-20 blocks away, leaving behind up to 4 Endermites.
     - If the player is flying with an Elytra, the Voidllager will yank it off their backs, hopefully not dropping into the endless void. As well as applying 15 seconds of Slowness II.
-    - If the player uses projectiles from long distance, the Voidllager will attempt to escape by teleporting away.
+    - If the player uses projectiles, the Voidllager will attempt to escape by teleporting away.
 Disguise yourself as a Voidllager by equipping a Shulker Shelmet when out of field of view.
 Once disguised, you can now barter with them with amethysts. When given enough amethysts and satisfied, they will drop a variety of different loot.
 

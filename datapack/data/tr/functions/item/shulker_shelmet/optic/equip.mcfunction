@@ -13,4 +13,3 @@ item modify entity @s armor.head tr:copy_nbt
 
 execute unless entity @e[type=wandering_trader,tag=tr.voidllager,distance=..16] run tag @s add tr.voidllager.friendly
 
-advancement grant @s only tr:minecraft/end/equip_shulker_shelmet

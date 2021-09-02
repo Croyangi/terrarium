@@ -4,6 +4,9 @@
   "pack.tr": "Terrarium",
   "pack.tr.version": "Version 0.1",
 
+  "debug.tr": "[Debug]: ",
+  "debug.tr.reload": "Successfully Reloaded!",
+
   "item.tr.shulker_shelmet": "Shulker Shelmet",
   "item.tr.voidllager_spawn_egg": "Voidllager Spawn Egg",
   "item.tr.weather_globe": "Weather Globe",
@@ -13,6 +16,8 @@
   "item.tr.weather_globe.weather.thunder": "[Thunder]",
 
   "entity.tr.voidllager": "Voidllager",
+
+  "advancements.tr.minecraft.tooltip_spacer": "\n\n",
 
   "advancement.tr.rain_rain_go_away.title": "Rain Rain Go Away",
   "advancement.tr.rain_rain_go_away.description": "Clear up the sky with a Weather Globe",

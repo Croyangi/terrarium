@@ -5,7 +5,7 @@
 
 tag @s remove tr.has_line_of_sight
 scoreboard players set @s tr.dummy 0
-execute anchored eyes facing entity @e[gamemode=!creative,gamemode=!spectator,distance=..16,type=player,limit=1,sort=nearest] eyes run function tr:entity/voidllager/line_of_sight/raycast
+execute anchored eyes facing entity @e[gamemode=!creative,gamemode=!spectator,distance=..16,type=player,limit=1,sort=nearest,predicate=!tr:has_true_invisibility] eyes run function tr:entity/voidllager/line_of_sight/raycast
 scoreboard players reset @s tr.dummy
 execute if entity @e[gamemode=!creative,gamemode=!spectator,distance=..4,type=player] run tag @s add tr.has_line_of_sight
 execute if entity @s[tag=tr.has_line_of_sight] run tag @s add tr.voidllager.casting

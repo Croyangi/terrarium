@@ -1,25 +1,30 @@
 {
     "display": {
-        "title": {
-            "translate": "advancement.tr.end_exchange.title",
-            "color": "white"
+      "icon": {
+        "item": "minecraft:amethyst_cluster"
+      },
+      "title": {
+        "translate": "advancement.tr.end_exchange.title"
+      },
+      "description": [
+        {
+          "translate": "advancement.tr.end_exchange.description"
         },
-        "description": {
-            "translate": "advancement.tr.end_exchange.description",
-            "color": "dark_purple"
+        {
+          "translate": "advancements.tr.minecraft.tooltip_spacer"
         },
-        "icon": {
-            "item": "minecraft:amethyst_cluster"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        {
+          "translate": "pack.tr",
+          "color": "#008725",
+          "italic": true
+          }
+        ],
+      "frame": "task"
     },
+    "parent": "tr:minecraft/end/equip_shulker_shelmet",
     "criteria": {
-        "impossible": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "parent": "tr:minecraft/end/equip_shulker_shelmet"
-}
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

@@ -1,26 +1,41 @@
 {
     "display": {
-        "title": {
-            "translate": "advancement.tr.headspace.title",
-            "color": "white"
+      "icon": {
+        "item": "minecraft:leather_helmet",
+        "nbt": "{CustomModelData:218000}"
+      },
+      "title": {
+        "translate": "advancement.tr.headspace.title"
+      },
+      "description": [
+        {
+          "translate": "advancement.tr.headspace.description"
         },
-        "description": {
-            "translate": "advancement.tr.headspace.description",
-            "color": "dark_purple"
+        {
+          "translate": "advancements.tr.minecraft.tooltip_spacer"
         },
-        "icon": {
-            "item": "minecraft:leather_helmet",
-            "nbt": "{CustomModelData:218000}"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        {
+          "translate": "pack.tr",
+          "color": "#008725",
+          "italic": true
+          }
+        ],
+      "frame": "task"
     },
+    "parent": "tr:minecraft/end/kill_voidllager",
     "criteria": {
-        "impossible": {
-            "trigger": "minecraft:impossible"
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{tr:{id:\"shulker_shelmet\"}}"
+            }
+          ]
         }
-    },
-    "parent": "tr:minecraft/end/kill_voidllager"
-}
+      }
+    }
+  }

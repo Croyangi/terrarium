@@ -1,26 +1,31 @@
 {
     "display": {
-        "title": {
-            "translate": "advancement.tr.rain_rain_go_away.title",
-            "color": "white"
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:218005}"
+      },
+      "title": {
+        "translate": "advancement.tr.rain_rain_go_away.title"
+      },
+      "description": [
+        {
+          "translate": "advancement.tr.rain_rain_go_away.description"
         },
-        "description": {
-            "translate": "advancement.tr.rain_rain_go_away.description",
-            "color": "dark_purple"
+        {
+          "translate": "advancements.tr.minecraft.tooltip_spacer"
         },
-        "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:218005}"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        {
+          "translate": "pack.tr",
+          "color": "#008725",
+          "italic": true
+          }
+        ],
+      "frame": "task"
     },
+    "parent": "minecraft:adventure/root",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"
-        }
-    },
-    "parent": "minecraft:adventure/root"
-}
+      }
+    }
+  }

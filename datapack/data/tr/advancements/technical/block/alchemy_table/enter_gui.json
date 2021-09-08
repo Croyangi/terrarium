@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "click_alchemy_table": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:barrel"
+              ],
+              "nbt": "{CustomName:'{\"italic\":false,\"color\":\"aqua\",\"translate\":\"block.tr.alchemy_table\"}'}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tr:block/alchemy_table/enter_gui"
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "place": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "item": {
+            "nbt": "{BlockEntityTag:{Items:[{tag:{tr:{placed_block:1b}}}]}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tr:block/placement/scan"
+    }
+  }
+  

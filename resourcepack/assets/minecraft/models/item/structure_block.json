@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/structure_block",
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 218000
+      },
+      "model": "tr:item/blank"
+    }
+  ]
+}

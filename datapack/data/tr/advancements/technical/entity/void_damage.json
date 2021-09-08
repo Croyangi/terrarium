@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "void_damage": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "type": {
+              "bypasses_invulnerability": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tr:item/totem_of_undying/used"
+    }
+  }
+  

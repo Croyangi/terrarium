@@ -8,4 +8,7 @@ execute unless data storage tr:storage {root:{gamerules:{doCustomMobSpawning:0b}
 # Entity Second Clock
 execute as @e[tag=tr.entity] at @s run function tr:entity/second_clock
 
+# Difficulty
+execute store result score #tr.difficulty tr.dummy run difficulty
+
 schedule function tr:technical/second_clock 1s replace

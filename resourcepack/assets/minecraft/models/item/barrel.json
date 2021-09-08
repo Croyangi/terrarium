@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/barrel",
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 218000
+      },
+      "model": "tr:block/thinkery_table"
+    }
+  ]
+}

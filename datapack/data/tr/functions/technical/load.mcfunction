@@ -16,4 +16,4 @@ schedule function tr:technical/second_clock 1s replace
 # Config
 function tr:technical/config
 
-execute unless data storage tr:storage {root:{gamerules:{doReloadMessage:0b}}} run tellraw @a [{"translate":"debug.tr","color":"yellow","bold":true},{"translate":"debug.tr.reload","color":"white","bold":true}]
+execute unless data storage tr:storage {root:{gamerules:{doReloadMessage:0b}}} run tellraw @a [{"translate":"debug.tr","color":"yellow","bold":true},{"translate":"debug.tr.reload","color":"white","bold":false}]

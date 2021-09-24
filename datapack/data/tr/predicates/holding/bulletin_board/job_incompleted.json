@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{tr:{id:\"bulletin_board_job\"}, Completed:0b}"
+        }
+      }
+    }
+  }
+  

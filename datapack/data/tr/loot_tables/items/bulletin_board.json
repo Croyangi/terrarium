@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hopper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:hopper\",Items:[{id:\"barrier\",Count:1b,tag:{tr:{placed_block:1b,block:\"bulletin_board\"}}}]},CustomModelData:218000,tr:{id:\"bulletin_board\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.tr.bulletin_board",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.tr",
+                  "color": "#008725",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

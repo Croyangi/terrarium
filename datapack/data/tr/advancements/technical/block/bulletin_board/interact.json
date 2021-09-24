@@ -1,6 +1,6 @@
 {
     "criteria": {
-      "click_alchemy_table": {
+      "normal": {
         "trigger": "minecraft:item_used_on_block",
         "conditions": {
           "location": {
@@ -8,14 +8,13 @@
               "blocks": [
                 "minecraft:barrel"
               ],
-              "nbt": "{CustomName:'{\"italic\":false,\"color\":\"aqua\",\"translate\":\"block.tr.alchemy_table\"}'}"
+              "nbt": "{Lock:\"bulletin_board\"}"
             }
           }
         }
       }
     },
     "rewards": {
-      "function": "tr:block/alchemy_table/enter_gui"
+      "function": "tr:block/bulletin_board/interact/start"
     }
   }
-  

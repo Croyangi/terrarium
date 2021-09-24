@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": {
+          "location": {
+            "feature": "village"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tr:block/bulletin_board/jobs/bred_animals"
+  }
+}

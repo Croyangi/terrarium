@@ -14,8 +14,16 @@
   "item.tr.weather_globe.weather.clear": "[Clear]",
   "item.tr.weather_globe.weather.rain": "[Rain]",
   "item.tr.weather_globe.weather.thunder": "[Thunder]",
+  "item.tr.something": "MeeperCagnet",
+  "item.tr.something.lore": "Smells like disgusting rotting metal...",
+  "item.tr.bulletin_board_job": "Bulletin Board Job",
+  "item.tr.bulletin_board_job.lore": "Job",
+  "item.tr.bulletin_board_job.job.empty": "[Empty]",
+  "item.tr.bulletin_board_job.job.build_iron_golem": "[Construct an Iron Golem]",
+  "item.tr.bulletin_board_job.job.bred_animals": "[Breed animals]",
+  "item.tr.bulletin_board_job.job.complete": "[Completed]",
 
-  "block.tr.alchemy_table": "Alchemy Table",
+  "block.tr.bulletin_board": "Bulletin Board",
 
   "entity.tr.voidllager": "Voidllager",
 
@@ -23,6 +31,8 @@
 
   "advancement.tr.rain_rain_go_away.title": "Rain Rain Go Away",
   "advancement.tr.rain_rain_go_away.description": "Clear up the sky with a Weather Globe",
+  "advancement.tr.odd_jobs.title": "Odd Jobs",
+  "advancement.tr.odd_jobs.description": "Take up a job from a Bulletin Board out of kindness",
 
   "advancement.tr.headspace.title": "Headspace",
   "advancement.tr.headspace.description": "Equip the Shulker Shelmet",

@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:218009}"
+      },
+      "title": {
+        "translate": "advancement.tr.odd_jobs.title"
+      },
+      "description": [
+        {
+          "translate": "advancement.tr.odd_jobs.description"
+        },
+        {
+          "translate": "advancements.tr.minecraft.tooltip_spacer"
+        },
+        {
+          "translate": "pack.tr",
+          "color": "#008725",
+          "italic": true
+          }
+        ],
+      "frame": "task"
+    },
+    "parent": "minecraft:adventure/trade",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+      }
+    }
+  }

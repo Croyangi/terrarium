@@ -5,7 +5,7 @@
 tag @s add tr.voidllager.bartering
 
 scoreboard players add @s tr.dummy2 0
-execute as @s[scores={tr.dummy2=0}] run playsound tr:mob.voidllager.barter master @a[distance=..16]
+execute if entity @s[scores={tr.dummy2=0}] run playsound tr:mob.voidllager.barter master @a[distance=..16]
 scoreboard players add @s[scores={tr.dummy2=0..}] tr.dummy2 1
 
 attribute @s minecraft:generic.movement_speed modifier add 0-2-0-3-3 "slowness" -100 add

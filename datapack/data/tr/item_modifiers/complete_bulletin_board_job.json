@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        [
+          {
+            "translate": "item.tr.bulletin_board_job.lore",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": ": "
+          },
+          {
+            "translate": "item.tr.bulletin_board_job.job.complete"
+          }
+        ]
+      ]
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Completed:1b}"
+  }
+]

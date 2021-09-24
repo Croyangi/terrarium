@@ -51,6 +51,18 @@
         "custom_model_data": 218007
       },
       "model": "tr:item/weather_globe/thunder"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218008
+      },
+      "model": "tr:item/something"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218009
+      },
+      "model": "tr:item/weather_globe/thunder"
     }
   ]
 }

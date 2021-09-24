@@ -1,5 +1,8 @@
 {
-  "parent": "minecraft:block/barrel",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/hopper"
+  },
   "overrides": [{
       "predicate": {
         "custom_model_data": 218000

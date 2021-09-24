@@ -1,4 +1,5 @@
-{
+[
+  {
     "condition": "minecraft:inverted",
     "term": {
       "condition": "minecraft:entity_properties",
@@ -9,5 +10,19 @@
         }
       }
     }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.03
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:enderman",
+      "location": {
+        "dimension": "minecraft:the_end"
+      }
+    }
   }
-  
+]

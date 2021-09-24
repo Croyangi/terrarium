@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:68,Unbreakable:1b,CustomModelData:218009,Completed:0b,Experience:0b,tr:{id:\"bulletin_board_job\", job:\"empty\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "item.tr.bulletin_board_job",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "item.tr.bulletin_board_job.lore",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": ": "
+                  },
+                  {
+                    "translate": "item.tr.bulletin_board_job.job.empty"
+                  }
+                ],
+                {
+                  "translate": "pack.tr",
+                  "color": "#00AA00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

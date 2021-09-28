@@ -38,5 +38,6 @@ item modify entity @s[nbt={Inventory:[{Slot:32b,id:"minecraft:carrot_on_a_stick"
 item modify entity @s[nbt={Inventory:[{Slot:33b,id:"minecraft:carrot_on_a_stick",tag:{tr:{id:"bulletin_board_job", job:"bred_animals"}}}]}] container.33 tr:complete_bulletin_board_job
 item modify entity @s[nbt={Inventory:[{Slot:34b,id:"minecraft:carrot_on_a_stick",tag:{tr:{id:"bulletin_board_job", job:"bred_animals"}}}]}] container.34 tr:complete_bulletin_board_job
 item modify entity @s[nbt={Inventory:[{Slot:35b,id:"minecraft:carrot_on_a_stick",tag:{tr:{id:"bulletin_board_job", job:"bred_animals"}}}]}] container.35 tr:complete_bulletin_board_job
+item modify entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{tr:{id:"bulletin_board_job", job:"bred_animals"}}}]}] container.35 tr:complete_bulletin_board_job
 
 advancement revoke @s only tr:technical/block/bulletin_board/bred_animals

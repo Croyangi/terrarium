@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "tr:block/bulletin_board/jobs/build_iron_golem"
+    "function": "tr:block/bulletin_board/jobs/technical/build_iron_golem"
   }
 }

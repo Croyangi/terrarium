@@ -23,6 +23,16 @@ Now you too can grind for Optic Shulker Shelmets!
 Right-click to suck in the current weather and store it away for later use.
 Right-click a filled globe to release the stored weather and change the weather for 5 minutes
 
+- Added Bulletin Boards, a block that naturally appears in villages or can be crafted.
+When properly established in a village, click to gain a random Bulletin Board Job. These jobs can vary from:
+    - Constructing Iron Golems
+    - Filling Composters
+    - Breeding animals
+    - Decorating the village
+On completion of task, it can be exchanged at the Bulletin Board for a healthy sum of XP.
+XP gain from the Bulletin Board varies from the difficulty of the task completed.
+When completing a job, it also increases the village's general happiness, decreasing village trade prices.
+
 - Added advancement, "Alone in the Abyss".
 Earn it by killing a Voidllager.
 
@@ -38,8 +48,14 @@ Earn it by successfully bartering with a Voidllager.
 - Added advancement, "Rain Rain Go Away".
 Earn it by using a Clear Weather Globe while it's raining or thundering.
 
+- Added advancement, "Odd Jobs".
+Earn it by getting a job from the Bulletin Board.
+
 - Added gamerule, "doCustomMobSpawning".
 Defaults as on, toggles if custom mobs spawn.
+
+- Added gamerule, "doReloadMessage".
+Defaults as off, toggles if a debug message appears when reloading.
 
 
 Changes:

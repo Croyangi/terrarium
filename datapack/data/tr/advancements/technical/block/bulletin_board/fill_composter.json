@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": {
+            "location": {
+              "feature": "village"
+            }
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:composter"
+              ],
+              "state": {
+                "level": "7"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tr:block/bulletin_board/jobs/technical/fill_composter"
+    }
+  }
+  

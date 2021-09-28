@@ -1,0 +1,12 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "feature": "village"
+    }
+  },
+  {
+    "condition": "minecraft:time_check",
+    "value": 2000
+  }
+]

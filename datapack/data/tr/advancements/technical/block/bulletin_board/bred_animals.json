@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "tr:block/bulletin_board/jobs/bred_animals"
+    "function": "tr:block/bulletin_board/jobs/technical/bred_animals"
   }
 }

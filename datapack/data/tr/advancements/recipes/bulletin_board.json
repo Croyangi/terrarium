@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "bulletin_board_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tr:bulletin_board"
+            }
+        }
+    },
+    "rewards": {
+        "function": "tr:recipes/bulletin_board"
+    }
+}
